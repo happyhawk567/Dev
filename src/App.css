@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  column-count: 2;
+  padding: 20px;
+}
+.App-header {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+img {
+  width:  150px;
+  height: 150px;
+}
+
+#shoes-display{
+  text-align: center;
+  align-items: center;
+  padding-left: 10%;
+}
+#shoe{
+  background-color: lightblue;
+}
+
+#col{
+  justify-content:left;
+  background-color:rgb(230, 216, 251);
+  padding: 5px;
+}
+
